@@ -1,26 +1,23 @@
 .container {
-  margin: auto;
-  margin-top: 20px;
-  font-family: sans-serif;
-  font-weight: 500;
-  min-width: 300px;
+	margin: auto;
+	margin-top: 20px;
+	font-family: sans-serif;
+	font-weight: 500;
+	min-width: 300px;
 	text-align: center;
 }
-.enter-word{
- 
-  margin-bottom: 10px;
+.enter-word {
+	margin-bottom: 10px;
 }
-.search-btn{
-  width: 100%;
+.search-btn {
+	width: 100%;
 }
 .result {
 	margin-top: 1em;
 }
-.word{
-  margin-bottom: 10px;
+.word {
+	margin-bottom: 10px;
 }
-.loading{
-  
-  margin: auto;
+.loading {
+	margin: auto;
 }
-

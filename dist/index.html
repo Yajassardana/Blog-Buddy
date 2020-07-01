@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
- 
-  <link rel="stylesheet" href="./styles.css" />
-  <title>Blog Buddy</title>
-</head>
-<body >
-  <div class="container">
-    <form class="form-data" autocomplete="on">
-      <div class="form-group">
-        <div class="enter-word">
-          Enter a word to search:
-        </div>
-        <div>
-          <input type="text" class="word form-control" placeholder="Word" required/>
-        </div>
-     
-        <button class="search-btn btn btn-info btn-sm">Search</button>
-      </div>
-      
-    </form>
-    <div class="result">
-      <div class="spinner-grow text-info loading my-3" role="status"></div>
-      <div class="errors"></div>
-      <div class="result-container">
-        <p><strong>Word: </strong><span class="result-word"></span></p>
-        <p><strong>Definition: </strong><span class="Definition"></span></p>
-        <p><strong>Synonyms: </strong> <span class="Synonyms"></span></p>
-      </div>
-      <div class="no-match"><strong>Did you mean:</strong><span class="did-you-mean"></span></div>
-    </div>
-  </div>
-  
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Blog Buddy</title>
+	</head>
+	<body>
+		<div class="container">
+			<form class="form-data" autocomplete="on">
+				<div class="form-group">
+					<div class="enter-word">
+						Enter a word to search:
+					</div>
+					<div>
+						<input
+							type="text"
+							class="word form-control"
+							placeholder="Word"
+							required
+						/>
+					</div>
+
+					<button class="search-btn btn btn-info btn-sm">Search</button>
+				</div>
+			</form>
+			<div class="result">
+				<div class="spinner-grow text-info loading my-3" role="status"></div>
+				<div class="errors"></div>
+				<div class="result-container">
+					<p><strong>Word: </strong><span class="result-word"></span></p>
+					<p><strong>Definition: </strong><span class="Definition"></span></p>
+					<p><strong>Synonyms: </strong> <span class="Synonyms"></span></p>
+				</div>
+				<div class="no-match my-3">
+					<strong>Did you mean:</strong><span class="did-you-mean"></span>
+				</div>
+			</div>
+		</div>
+
 		<script src="main.js"></script>
-   
-</body>
+	</body>
 </html>

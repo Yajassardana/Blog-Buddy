@@ -1,35 +1,35 @@
 {
-  "name": "blogbuddy",
-  "version": "1.0.0",
-  "description": "A chrome extension to hel[ bloggers find word meanings",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --watch",
-    "build": "webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yajassardana/Blog-Buddy.git"
-  },
-  "keywords": [
-    "chrome",
-    "extension",
-    "blogbuddy",
-    "dictionary"
-  ],
-  "author": "Yajas Sardana",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yajassardana/Blog-Buddy/issues"
-  },
-  "homepage": "https://github.com/Yajassardana/Blog-Buddy#readme",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "dotenv": "^8.2.0"
-  },
-  "devDependencies": {
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  }
+	"name": "blogbuddy",
+	"version": "1.0.0",
+	"description": "A chrome extension to help bloggers find meanings of and synonyms to wide range of words",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "webpack --watch",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Yajassardana/Blog-Buddy.git"
+	},
+	"keywords": [
+		"chrome",
+		"extension",
+		"blogbuddy",
+		"dictionary"
+	],
+	"author": "Yajas Sardana",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Yajassardana/Blog-Buddy/issues"
+	},
+	"homepage": "https://github.com/Yajassardana/Blog-Buddy#readme",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"dotenv": "^8.2.0"
+	},
+	"devDependencies": {
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.12"
+	}
 }
