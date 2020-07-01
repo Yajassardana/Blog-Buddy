@@ -24,15 +24,18 @@ const searchForWord = async (word) => {
 		definition.textContent = response.data[0].def[0].sseq[0][0][1].dt[0][1];
 		// recovered.textContent = response.data.recovered.value;
 		let synArray;
-		response.data[0].meta.syns[0].forEach((synonym) => {
-			synArray = synArray + synonym + ',' + ' <br> ';
-		});
+		response.data[0].meta.syns.forEach((syn)=>{
+			syn.forEach((synonym) => {
+				synArray = synArray + synonym + ', '
+			});
+		})
+		synArray = synArray.substring(0,synArray.length-2);
 		synonyms.innerHTML = synArray;
 		results.style.display = 'block';
 	} catch (error) {
 		loading.style.display = 'none';
 		results.style.display = 'none';
-		errors.textContent = 'We have no data for the country you have requested.';
+		errors.textContent = 'We have no data for the word you have searched';
 	}
 };
 

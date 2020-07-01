@@ -1,5 +1,6 @@
 .container {
-	margin: 1.5em;
+  margin: 1.5em;
+  min-width: 300px;
 	text-align: center;
 }
 
