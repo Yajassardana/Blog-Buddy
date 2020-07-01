@@ -1,9 +1,20 @@
 .container {
-  margin: 1.5em;
+  margin: auto;
+  margin-top: 20px;
   min-width: 300px;
 	text-align: center;
 }
-
+.enter-word{
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.search-btn{
+  width: 100%;
+}
 .result {
 	margin-top: 1em;
+}
+.word{
+  margin-bottom: 10px;
 }

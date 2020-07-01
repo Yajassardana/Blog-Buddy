@@ -8,25 +8,29 @@
   <link rel="stylesheet" href="./styles.css" />
   <title>Blog Buddy</title>
 </head>
-<body class="container">
-  <form class="form-data" autocomplete="on">
-    <div class="enter-word">
-      Enter a word to search
-    </div>
-    <div>
-      <input type="text" class="word" />
-    </div>
-    <button class="search-btn">Search</button>
-  </form>
-  <div class="result">
-    <div class="loading">loading...</div>
-    <div class="errors"></div>
-    <div class="data"></div>
-    <div class="result-container">
-      <p><strong>Definition: </strong><span class="Definition"></span></p>
-      <p><strong>Synonyms: </strong> <span class="Synonyms"></span></p>
+<body >
+  <div class="container">
+    <form class="form-data" autocomplete="on">
+      <div class="form-group">
+        <div class="enter-word">
+          Enter a word to search:
+        </div>
+        <div>
+          <input type="text" class="word form-control" />
+        </div>
+        <button class="search-btn btn btn-info btn-sm">Search</button>
+      </div>
+    </form>
+    <div class="result">
+      <div class="loading">loading...</div>
+      <div class="errors"></div>
+      <div class="result-container">
+        <p><strong>Definition: </strong><span class="Definition"></span></p>
+        <p><strong>Synonyms: </strong> <span class="Synonyms"></span></p>
+      </div>
     </div>
   </div>
+  
 		<script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

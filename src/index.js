@@ -23,7 +23,7 @@ const searchForWord = async (word) => {
 		loading.style.display = 'none';
 		definition.textContent = response.data[0].def[0].sseq[0][0][1].dt[0][1];
 		// recovered.textContent = response.data.recovered.value;
-		let synArray;
+		let synArray="";
 		response.data[0].meta.syns.forEach((syn)=>{
 			syn.forEach((synonym) => {
 				synArray = synArray + synonym + ', '
@@ -43,7 +43,6 @@ const searchForWord = async (word) => {
 const handleSubmit = async (e) => {
 	e.preventDefault();
 	searchForWord(word.value);
-	console.log(word.value);
 };
 
 form.addEventListener('submit', (e) => handleSubmit(e));
