@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Blog Buddy</title>
 </head>
-<body>
-  
+<body class="container">
+  <form class="form-data" autocomplete="on">
+    <div class="enter-word">
+      Enter a word to search
+    </div>
+    <div>
+      <input type="text" class="word" />
+    </div>
+    <button class="search-btn">Search</button>
+  </form>
+  <div class="result">
+    <div class="loading">loading...</div>
+    <div class="errors"></div>
+    <div class="data"></div>
+    <div class="result-container">
+      <p><strong>Definition: </strong><span class="Definition"></span></p>
+      <p><strong>Synonyms: </strong> <span class="Synonyms"></span></p>
+    </div>
+  </div>
 </body>
 </html>
