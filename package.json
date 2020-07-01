@@ -1,0 +1,25 @@
+{
+  "name": "blogbuddy",
+  "version": "1.0.0",
+  "description": "A chrome extension to hel[ bloggers find word meanings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yajassardana/Blog-Buddy.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "blogbuddy",
+    "dictionary"
+  ],
+  "author": "Yajas Sardana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yajassardana/Blog-Buddy/issues"
+  },
+  "homepage": "https://github.com/Yajassardana/Blog-Buddy#readme"
+}
