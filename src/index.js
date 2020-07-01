@@ -1,5 +1,6 @@
 import axios from 'axios';
 const errors = document.querySelector('.errors');
+const resultWord = document.querySelector('.result-word')
 const loading = document.querySelector('.loading');
 const synonyms = document.querySelector('.Synonyms'); //deaths
 const definition = document.querySelector('.Definition'); //cases
@@ -31,11 +32,12 @@ const searchForWord = async (word) => {
 		})
 		synArray = synArray.substring(0,synArray.length-2);
 		synonyms.innerHTML = synArray;
+		resultWord.textContent = word;
 		results.style.display = 'block';
 	} catch (error) {
 		loading.style.display = 'none';
 		results.style.display = 'none';
-		errors.textContent = 'We have no data for the word you have searched';
+		errors.textContent = 'Sorry! we have no data for the word you have searched';
 	}
 };
 

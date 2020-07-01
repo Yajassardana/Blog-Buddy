@@ -1,12 +1,13 @@
 .container {
   margin: auto;
   margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
   min-width: 300px;
 	text-align: center;
 }
 .enter-word{
-  font-family: sans-serif;
-  font-weight: 500;
+ 
   margin-bottom: 10px;
 }
 .search-btn{
@@ -18,3 +19,8 @@
 .word{
   margin-bottom: 10px;
 }
+.loading{
+  
+  margin: auto;
+}
+
