@@ -7,5 +7,9 @@
 
   "browser_action": {
     "default_popup": "index.html"
-  }
+  },
+  "icons": { "16": "icon16.png",
+    "48": "icon48.png",
+   "128": "icon128.png" },
+   "content_security_policy": "script-src 'self' https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js; object-src 'self'"
 }

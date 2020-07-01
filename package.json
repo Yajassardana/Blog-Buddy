@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/Yajassardana/Blog-Buddy#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "webpack": "^4.43.0",
