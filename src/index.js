@@ -11,7 +11,7 @@ results.style.display = 'none';
 loading.style.display = 'none';
 noMatch.style.display = 'none';
 errors.textContent = '';
-let random = 'key=6bc8b42d-c598-4c95-add4-07268328955f';
+let apiKey = '';//secret api key goes here
 // grab the form
 const form = document.querySelector('.form-data');
 // grab the country name
@@ -26,7 +26,7 @@ const searchForWord = async (word) => {
 	noMatch.style.display = 'none';
 	try {
 		const response = await axios.get(
-			`https://dictionaryapi.com/api/v3/references/thesaurus/json/${word}?${random}`
+			`https://dictionaryapi.com/api/v3/references/thesaurus/json/${word}?${apiKey}`
 		);
 		loading.style.display = 'none';
 
