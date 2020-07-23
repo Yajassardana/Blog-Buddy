@@ -11,13 +11,13 @@ results.style.display = 'none';
 loading.style.display = 'none';
 noMatch.style.display = 'none';
 errors.textContent = '';
-let apiKey = '';//secret api key goes here
+let apiKey = ''; //secret api key goes here
 // grab the form
 const form = document.querySelector('.form-data');
-// grab the country name
+// grab the word name
 const word = document.querySelector('.word');
 
-// declare a method to search by country name
+// declare a method to search by word
 const searchForWord = async (word) => {
 	loading.style.display = 'block';
 	errors.textContent = '';
